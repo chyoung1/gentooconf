@@ -1,0 +1,41 @@
+
+media-video/vlc qt5 gnutls live lua matroska rtsp theora upnp vcdx
+# required by media-sound/pulseaudio-daemon-16.1::gentoo[alsa-plugin,alsa]
+# required by media-libs/libpulse-16.1::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by pulseaudio (argument)
+>=media-plugins/alsa-plugins-1.2.7.1 pulseaudio
+# required by x11-misc/barrier-2.4.0::gentoo[gui]
+# required by barrier (argument)
+>=net-dns/avahi-0.8-r5 mdnsresponder-compat
+# required by gnome-base/gnome-keyring-42.1::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+# required by gnome-extra/nm-applet-1.28.0::gentoo
+# required by nm-applet (argument)
+>=app-crypt/gcr-3.41.0 gtk
+# required by media-video/vlc-3.0.17.4::gentoo
+# required by vlc (argument)
+>=sys-libs/zlib-1.2.12-r3 minizip
+# required by dev-python/PyQtWebEngine-5.15.5::gentoo
+# required by www-client/qutebrowser-2.5.2::gentoo[python_single_target_python3_10]
+# required by www-client/qutebrowser (argument)
+>=dev-python/PyQt5-5.15.6 sql declarative webchannel
+# required by dev-python/PyQtWebEngine-5.15.5::gentoo
+# required by www-client/qutebrowser-2.5.2::gentoo[python_single_target_python3_10]
+# required by www-client/qutebrowser (argument)
+>=dev-qt/qtwebengine-5.15.5_p20220618 widgets
+# required by dev-qt/qtwebengine-5.15.5_p20220618::gentoo
+# required by dev-python/PyQtWebEngine-5.15.5::gentoo
+# required by www-client/qutebrowser-2.5.2::gentoo[python_single_target_python3_10]
+# required by www-client/qutebrowser (argument)
+>=dev-qt/qtwebchannel-5.15.5 qml
+# required by dev-python/PyQt5-5.15.6::gentoo[multimedia]
+# required by dev-python/PyQtWebEngine-5.15.5::gentoo
+# required by www-client/qutebrowser-2.5.2::gentoo[python_single_target_python3_10]
+# required by www-client/qutebrowser (argument)
+>=dev-qt/qtmultimedia-5.15.5-r1 widgets
+# required by xfce-base/xfce4-panel-4.16.5::gentoo[dbusmenu]
+# required by xfce-extra/xfce4-power-manager-4.16.0::gentoo[panel-plugin]
+# required by xfce4-power-manager (argument)
+>=dev-libs/libdbusmenu-16.04.0-r2 gtk3
